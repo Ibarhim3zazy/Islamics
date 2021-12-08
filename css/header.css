@@ -60,7 +60,7 @@
 .header .ul>li>a:hover::before {
   border-radius: 30px;
   width: 83%;
-  left: 200px;
+  left: 300px;
   background-image: linear-gradient(to right, rgba(134, 251, 255, 0.603), rgba(252, 130, 176, 0.548));
 }
 
