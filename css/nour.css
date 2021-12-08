@@ -68,7 +68,7 @@ a.click {
   position: relative;
 }
 
-.header .ul .ul-1 {
+.header .ul .ul-1, .header .ul .ul-2{
   padding-right: 50px;
   position: absolute;
   right: 200px;
@@ -87,16 +87,16 @@ a.click {
   color: crimson;
 }
 
-.header .ul .show_child:hover .ul-1 {
+.header .ul .show_child1:hover .ul-1,.header .ul .show_child2:hover .ul-2{
   display: block;
   opacity: 1;
 }
 
-.header .ul .ul-1>li {
+.header .ul .ul-1>li, .header .ul .ul-2>li{
   margin-bottom: 8px;
 }
 
-.header .ul .ul-1>li>a {
+.header .ul .ul-1>li>a, .header .ul .ul-2>li>a{
   background-color: rgba(202, 255, 243, 0.5);
   font-size: 17px;
   transition: ease-in-out 0.5s;
@@ -113,7 +113,7 @@ a.click {
   border-radius: 10px;
 }
 
-.header .ul .ul-1>li>a::after {
+.header .ul .ul-1>li>a::after, .header .ul .ul-2>li>a::after{
   content: '';
   position: absolute;
   bottom: 0;
@@ -124,13 +124,13 @@ a.click {
   opacity: 0;
 }
 
-.header .ul .ul-1>li>a:hover::after {
+.header .ul .ul-1>li>a:hover::after, .header .ul .ul-2>li>a:hover::after{
   opacity: 1;
   width: 88%;
   left: 13px;
 }
 
-.header .ul .ul-1>li>a:hover {
+.header .ul .ul-1>li>a:hover, .header .ul .ul-2>li>a:hover{
   color: rgb(180, 102, 122);
   border-radius: 30px;
   left: 5px;
