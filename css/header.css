@@ -1,7 +1,7 @@
 .header {
-  width: 280px;
+  width: 20%;
   height: 100vh;
-  padding: 15px
+  padding: 15px;
   position: fixed;
   background-image: url(../images/do3aa.jpg);
   background-position: center;
