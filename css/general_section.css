@@ -151,3 +151,21 @@ section li{
   display: none;
   z-index: 1;
 }
+p {
+  color: rgba(80, 16, 77, 0.658);
+}
+span {
+  color: rgb(47, 110, 112);
+}
+span.dif {
+  color: rgb(50, 224, 195);
+}
+span.til {
+  color: #99f;
+}
+ol {
+  color:rgb(78, 7, 46);
+}
+h1 {
+  color: rgb(189, 146, 7);
+}
