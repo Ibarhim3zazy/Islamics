@@ -1,0 +1,94 @@
+section{
+  width: 80%;
+  height: 100vh;
+  float: left;
+}
+section h1{
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  background-color: #99f;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px #000;
+  margin: 40px auto;
+}
+section p{
+  padding: 30px;
+  line-height: 2em;
+  background-color: #fff8;
+}
+hr{
+  width: 40%;
+  margin: 20px;
+}
+section ol{
+  margin-right: 60px;
+}
+section li{
+  list-style-type: decimal;
+  line-height: 2em;
+}
+[id*="hadith"]{
+  position: relative;
+  color: #66f;
+  cursor: pointer;
+}
+[id*="hadith"]:hover{
+  color: #f66;
+}
+#hadith1:hover::after, #hadith1:hover::before{
+  display: block;
+}
+#hadith1::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+  z-index: 1;
+}
+#hadith1::after{
+  content: 'أنَّ أعْرَابِيًّا جَاءَ إلى رَسولِ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ ثَائِرَ الرَّأْسِ، فَقالَ: يا رَسولَ اللَّهِ أخْبِرْنِي مَاذَا فَرَضَ اللَّهُ عَلَيَّ مِنَ الصَّلَاةِ؟ فَقالَ: الصَّلَوَاتِ الخَمْسَ إلَّا أنْ تَطَّوَّعَ شيئًا، فَقالَ: أخْبِرْنِي ما فَرَضَ اللَّهُ عَلَيَّ مِنَ الصِّيَامِ؟ فَقالَ: شَهْرَ رَمَضَانَ إلَّا أنْ تَطَّوَّعَ شيئًا، فَقالَ: أخْبِرْنِي بما فَرَضَ اللَّهُ عَلَيَّ مِنَ الزَّكَاةِ؟ فَقالَ: فأخْبَرَهُ رَسولُ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ شَرَائِعَ الإسْلَامِ، قالَ: والذي أكْرَمَكَ، لا أتَطَوَّعُ شيئًا، ولَا أنْقُصُ ممَّا فَرَضَ اللَّهُ عَلَيَّ شيئًا، فَقالَ رَسولُ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ أفْلَحَ إنْ صَدَقَ، أوْ دَخَلَ الجَنَّةَ إنْ صَدَقَ.';
+  width: 60vw;
+  height: fit-content;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  color: #000;
+  position: absolute;
+  top: 40px;
+  right: -15vw;
+  display: none;
+  z-index: 1;
+}
+#hadith2:hover::after, #hadith2:hover::before{
+  display: block;
+}
+#hadith2::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+  z-index: 1;
+}
+#hadith2::after{
+  content: 'نُهِينا أنْ نَسْأَلَ رَسولَ اللهِ صَلَّى اللَّهُ عليه وسلَّمَ عن شيءٍ، فَكانَ يُعْجِبُنا أنْ يَجِيءَ الرَّجُلُ مِن أهْلِ البادِيَةِ العاقِلُ، فَيَسْأَلَهُ، ونَحْنُ نَسْمَعُ، فَجاءَ رَجُلٌ مِن أهْلِ البادِيَةِ، فقالَ: يا مُحَمَّدُ، أتانا رَسولُكَ فَزَعَمَ لنا أنَّكَ تَزْعُمُ أنَّ اللَّهَ أرْسَلَكَ، قالَ: صَدَقَ، قالَ: فمَن خَلَقَ السَّماءَ؟ قالَ: اللَّهُ، قالَ: فمَن خَلَقَ الأرْضَ؟ قالَ: اللَّهُ، قالَ: فمَن نَصَبَ هذِه الجِبالَ، وجَعَلَ فيها ما جَعَلَ؟ قالَ: اللَّهُ، قالَ: فَبِالَّذِي خَلَقَ السَّماءَ، وخَلَقَ الأرْضَ، ونَصَبَ هذِه الجِبالَ، آللَّهُ أرْسَلَكَ؟ قالَ: نَعَمْ، قالَ: وزَعَمَ رَسولُكَ أنَّ عليْنا خَمْسَ صَلَواتٍ في يَومِنا، ولَيْلَتِنا، قالَ: صَدَقَ، قالَ: فَبِالَّذِي أرْسَلَكَ، آللَّهُ أمَرَكَ بهذا؟ قالَ: نَعَمْ، قالَ: وزَعَمَ رَسولُكَ أنَّ عليْنا زَكاةً في أمْوالِنا، قالَ: صَدَقَ، قالَ: فَبِالَّذِي أرْسَلَكَ، آللَّهُ أمَرَكَ بهذا؟ قالَ: نَعَمْ، قالَ: وزَعَمَ رَسولُكَ أنَّ عليْنا صَوْمَ شَهْرِ رَمَضانَ في سَنَتِنا، قالَ: صَدَقَ، قالَ: فَبِالَّذِي أرْسَلَكَ، آللَّهُ أمَرَكَ بهذا؟ قالَ: نَعَمْ، قالَ: وزَعَمَ رَسولُكَ أنَّ عليْنا حَجَّ البَيْتِ مَنِ اسْتَطاعَ إلَيْهِ سَبِيلًا، قالَ: صَدَقَ، قالَ: ثُمَّ ولَّى، قالَ: والذي بَعَثَكَ بالحَقِّ، لا أزِيدُ عليهنَّ، ولا أنْقُصُ منهنَّ، فقالَ النبيُّ صَلَّى اللَّهُ عليه وسلَّمَ: لَئِنْ صَدَقَ لَيَدْخُلَنَّ الجَنَّةَ.';
+  width: 60vw;
+  height: fit-content;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  color: #000;
+  position: absolute;
+  top: 40px;
+  right: -20vw;
+  display: none;
+  z-index: 1;
+}

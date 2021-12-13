@@ -97,7 +97,7 @@ a.click {
 }
 
 .header .ul .ul-1>li>a, .header .ul .ul-2>li>a{
-  background-color: rgba(202, 255, 243, 0.5);
+  background-color: rgba(202, 255, 243);
   font-size: 17px;
   transition: ease-in-out 0.5s;
   color: #6fbfcf;
