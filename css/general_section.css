@@ -1,6 +1,6 @@
 section{
   width: 80%;
-  height: 100vh;
+  height: fit-content;
   float: left;
 }
 section h1{
@@ -12,7 +12,7 @@ section h1{
   box-shadow: 5px 5px 5px #000;
   margin: 40px auto;
 }
-section p{
+section p, section div{
   padding: 30px;
   line-height: 2em;
   background-color: #fff8;
@@ -23,6 +23,9 @@ hr{
 }
 section ol{
   margin-right: 60px;
+}
+section:last-of-type{
+  margin-bottom: 100px;
 }
 section li{
   list-style-type: decimal;
@@ -89,6 +92,62 @@ section li{
   position: absolute;
   top: 40px;
   right: -20vw;
+  display: none;
+  z-index: 1;
+}
+#hadith3:hover::after, #hadith3:hover::before{
+  display: block;
+}
+#hadith3::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+  z-index: 1;
+}
+#hadith3::after{
+  content: 'مروا أولادكم بالصلاة لسبع، واضربوهم عليها لعشر، وفَرِّقوا بينهم في المضاجع';
+  width: 60vw;
+  height: fit-content;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  color: #000;
+  position: absolute;
+  top: 40px;
+  right: -40vw;
+  display: none;
+  z-index: 1;
+}
+#hadith4:hover::after, #hadith4:hover::before{
+  display: block;
+}
+#hadith4::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+  z-index: 1;
+}
+#hadith4::after{
+  content: 'أنَّ النبيَّ جاء جبريلُ عليهِ السلامُ فقال : قمْ فصلِّه ، فصلَّى الظهرَ حينَ زالت الشمسُ ، ثم جاء العصرُ فقال ، قمْ فصلِّه فصلَّى العصرَ حينَ صار ظِلُّ كلِّ شيٍء مثلَه ، ثم جاءه المغربَ فقال قمْ فصلِّ فصلَّى المغربَ حينَ وجبت الشمسُ ، ثم جاءه العشاءَ فقال قمْ فصلِّ فصلَّى العشاءَ حينَ غاب الشفقُ ، ثم جاءه الفجرَ فقال قمْ فصلِّ فصلَّى الفجرَ حينَ بَرَقَ الفجرُ أو قال : سطعَ الفجرُ ، ثم جاء من الغد للظهرِ فقال : قمْ فصلِّه فصلَّى الظهرَ حينَ صار ظِلُّ كلِّ شيٍء مثلَه ، ثم جاءه العصرَ حينَ صار ظِلُّ كلِّ شيٍء مثليْه ، ثم جاءه المغربَ وقتًا واحدًا لم يَزُلْ عنه ، ثم جاء حين أَسْفَرَ جدًّا ، فقال له : قمْ فصلِّه ، فصلَّى الفجرَ ثم قال : ما بينَ هذينِ وَقْتٌ';
+  width: 60vw;
+  height: fit-content;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  color: #000;
+  position: absolute;
+  top: 40px;
+  right: -15vw;
   display: none;
   z-index: 1;
 }
