@@ -162,6 +162,8 @@ span.dif {
 }
 span.til {
   color: #99f;
+  font-size: 20px;
+  border-bottom: darkgoldenrod 1px dashed;
 }
 ol {
   color:rgb(78, 7, 46);
