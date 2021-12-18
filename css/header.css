@@ -1,0 +1,139 @@
+.header {
+  width: 20%;
+  height: 100vh;
+  padding: 15px;
+  position: fixed;
+  background-image: url(../images/do3aa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px 2px inset rgb(225, 251, 255);
+}
+.header .ul {
+  padding: 20px;
+}
+
+.header .ul>li {
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.header .ul>li>a {
+  width: 180px;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(190, 102, 99);
+  font-weight: bold;
+  position: relative;
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.header .ul>li>a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  transition-delay: .6s;
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.603), rgba(0, 128, 0, 0.548));
+}
+
+.header .ul>li>a:hover {
+  background-color: rgba(217, 252, 255, 0.63);
+  color: rgba(95, 212, 153, 0.897);
+  border-radius: 30px;
+  transform: scale(1.1);
+}
+
+.header .ul>li>a:hover::before {
+  border-radius: 30px;
+  width: 83%;
+  left: 300px;
+  background-image: linear-gradient(to right, rgba(134, 251, 255, 0.603), rgba(252, 130, 176, 0.548));
+}
+
+a.click {
+  position: relative;
+}
+
+.header .ul .ul-1, .header .ul .ul-2{
+  padding-right: 50px;
+  position: absolute;
+  right: 200px;
+  top: -100px;
+  transition: 0.4s ease-in-out;
+  display: none;
+  opacity: 0;
+}
+
+.header .fas {
+  margin-right: 10px;
+  color: rgb(190, 102, 99);
+}
+
+.header .ul>li>a.click:hover>.fas {
+  color: crimson;
+}
+
+.header .ul .show_child1:hover .ul-1,.header .ul .show_child2:hover .ul-2{
+  display: block;
+  opacity: 1;
+}
+
+.header .ul .ul-1>li, .header .ul .ul-2>li{
+  margin-bottom: 8px;
+}
+
+.header .ul .ul-1>li>a, .header .ul .ul-2>li>a{
+  background-color: rgba(202, 255, 243);
+  font-size: 17px;
+  transition: ease-in-out 0.5s;
+  color: #6fbfcf;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 230px;
+  height: 40px;
+  box-shadow: 0 0 10px 5px inset rgb(231, 251, 252);
+  position: relative;
+  border-radius: 10px;
+}
+
+.header .ul .ul-1>li>a::after, .header .ul .ul-2>li>a::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to right, pink, rgba(185, 0, 9, 0.822));
+  opacity: 0;
+}
+
+.header .ul .ul-1>li>a:hover::after, .header .ul .ul-2>li>a:hover::after{
+  opacity: 1;
+  width: 88%;
+  left: 13px;
+}
+
+.header .ul .ul-1>li>a:hover, .header .ul .ul-2>li>a:hover{
+  color: rgb(180, 102, 122);
+  border-radius: 30px;
+  left: 5px;
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, rgba(177, 252, 255, 0.603), rgba(255, 173, 205, 0.548));
+}

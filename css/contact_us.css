@@ -1,0 +1,51 @@
+section{
+  width: 80%;
+  height: 100vh;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+section form{
+  height: 70%;
+  width: 60%;
+  margin-right: 40px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  align-content: space-around;
+  background-color: #fff;
+  padding: 30px;
+}
+section form input, section form textarea{
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #ddd;
+}
+section form textarea{
+  max-width: 80%;
+  min-width: 80%;
+  min-height: 150px;
+  max-height: 150px;
+}
+section form [type="submit"]{
+  width: 15%;
+  cursor: pointer;
+  transition: .6s;
+}
+section form [type="submit"]:hover{
+  color: #fff;
+  background-color: #33f;
+}
+.contact{
+  height: 50%;
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  border-radius: 10%;
+  position: relative;
+  left: 100px;
+}
