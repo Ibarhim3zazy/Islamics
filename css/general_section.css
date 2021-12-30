@@ -152,20 +152,14 @@ section li{
   display: none;
   z-index: 1;
 }
-p {
-  color: rgba(80, 16, 77, 0.658);
-}
+
 span {
   color: rgb(47, 110, 112);
 }
 span.dif {
-  color: rgb(50, 224, 195);
+  color: rgb(141, 60, 60);
 }
-span.til {
-  color: #99f;
-  font-size: 20px;
-  border-bottom: darkgoldenrod 1px dashed;
-}
+
 ol {
   color:rgb(78, 7, 46);
 }
