@@ -4,7 +4,7 @@
   animation-duration: 2s;
   animation-delay: 21s;
   animation-fill-mode: forwards;
-  order: 999;
+  z-index: 999;
 }
 video{
   width: 950px;
@@ -20,7 +20,7 @@ video{
   animation-duration: 2s;
   animation-delay: 19s;
   animation-fill-mode: forwards;
-  order: -1;
+  z-index: -1;
 }
 @keyframes intro_vid {
   from{
