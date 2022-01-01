@@ -1,0 +1,40 @@
+.header {
+  top: -100%;
+  animation-name: header;
+  animation-duration: 2s;
+  animation-delay: 21s;
+  animation-fill-mode: forwards;
+  order: 999;
+}
+video{
+  width: 950px;
+  height: 550px;
+  border: none;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  animation-name: intro_vid;
+  animation-duration: 2s;
+  animation-delay: 19s;
+  animation-fill-mode: forwards;
+  order: -1;
+}
+@keyframes intro_vid {
+  from{
+    transform: translate(-50%, -50%);
+  }
+  to{
+    transform: translate(-70%, -50%);
+  }
+}
+@keyframes header {
+  from{
+    top: -100%;
+  }
+  to{
+    top: 0%;
+  }
+}

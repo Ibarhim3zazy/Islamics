@@ -12,6 +12,11 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 15px 2px inset rgb(225, 251, 255);
+  animation-name: header;
+  animation-duration: 2s;
+  animation-delay: 21s;
+  animation-fill-mode: forwards;
+  order: 999;
 }
 .header .ul {
   padding: 20px;
