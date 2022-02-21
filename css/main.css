@@ -5,6 +5,7 @@
   animation-delay: 21s;
   animation-fill-mode: forwards;
   z-index: 999;
+  transition: 1s;
 }
 video{
   width: 950px;
@@ -21,6 +22,39 @@ video{
   animation-delay: 19s;
   animation-fill-mode: forwards;
   z-index: -1;
+  transition: 1s;
+}
+video + img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  animation-name: intro_vid;
+  animation-duration: 2s;
+  animation-delay: 19s;
+  animation-fill-mode: forwards;
+  transition: 1s;
+}
+video + img:hover{
+  background-color: #66f3;
+  cursor: pointer;
+}
+img + input{
+  padding: 10px 60px;
+  background-color: #66f;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%);
+  animation-name: intro_button;
+  animation-duration: 2s;
+  animation-delay: 19s;
+  animation-fill-mode: forwards;
+  transition: 1s;
 }
 @keyframes intro_vid {
   from{
@@ -28,6 +62,14 @@ video{
   }
   to{
     transform: translate(-70%, -50%);
+  }
+}
+@keyframes intro_button{
+  from{
+    transform: translateX(-50%);
+  }
+  to{
+    transform: translateX(-170%);
   }
 }
 @keyframes header {

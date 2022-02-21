@@ -102,10 +102,10 @@ a.click {
 }
 
 .header .ul .ul-1>li>a, .header .ul .ul-2>li>a{
-  background-color: rgba(202, 255, 243);
+  background-color: #777;
   font-size: 17px;
   transition: ease-in-out 0.5s;
-  color: #6fbfcf;
+  color: #fff;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ a.click {
   padding: 10px;
   width: 230px;
   height: 40px;
-  box-shadow: 0 0 10px 5px inset rgb(231, 251, 252);
+  box-shadow: 0 0 5px inset rgb(231, 251, 252);
   position: relative;
   border-radius: 10px;
 }
@@ -137,6 +137,7 @@ a.click {
 
 .header .ul .ul-1>li>a:hover, .header .ul .ul-2>li>a:hover{
   color: rgb(180, 102, 122);
+  font-weight: bold;
   border-radius: 30px;
   left: 5px;
   transform: scale(1.1);

@@ -6,16 +6,18 @@ section{
 section h1{
   width: fit-content;
   height: fit-content;
-  padding: 20px;
-  background-color: #99f;
+  padding: 20px 40px;
+  background-color: #F2F2F2;
+  color: #245580;
   border-radius: 30%;
-  box-shadow: 5px 5px 5px #000;
+  box-shadow: 5px 5px 15px 5px #000;
   margin: 40px auto;
 }
 section p, section div{
   padding: 30px;
   line-height: 2em;
   background-color: #fff8;
+  font-size: 18px;
 }
 hr{
   width: 40%;
