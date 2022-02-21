@@ -66,7 +66,7 @@ section li{
   color: #000;
   position: absolute;
   top: 40px;
-  right: -15vw;
+  right: -25vw;
   display: none;
   z-index: 1;
 }
@@ -94,7 +94,7 @@ section li{
   color: #000;
   position: absolute;
   top: 40px;
-  right: -20vw;
+  right: -45vw;
   display: none;
   z-index: 1;
 }
@@ -122,7 +122,7 @@ section li{
   color: #000;
   position: absolute;
   top: 40px;
-  right: -40vw;
+  right: -50vw;
   display: none;
   z-index: 1;
 }
@@ -150,7 +150,7 @@ section li{
   color: #000;
   position: absolute;
   top: 40px;
-  right: -15vw;
+  right: -25vw;
   display: none;
   z-index: 1;
 }
@@ -178,7 +178,7 @@ section li{
   color: #000;
   position: absolute;
   top: 40px;
-  right: -5vw;
+  right: -20vw;
   display: none;
   z-index: 1;
 }
