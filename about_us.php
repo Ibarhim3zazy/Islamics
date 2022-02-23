@@ -3,7 +3,6 @@
   <link rel="stylesheet" href="css/aboutus.css">
 </head>
 <body dir="rtl">
-  <?php require 'header.php'; ?>
 <div class="header"><h1>معلومات عنا</h1></div>
   <div class="popup"><h1 style="color:#0B3778;">من نحن</h1>
      <p><h2>اسمائنا.......</h2>
@@ -21,6 +20,5 @@
   </div>
 </div>
 <div style="height: 400px;"></div>
- <?php require 'footer.php'; ?>
 </body>
 </html>

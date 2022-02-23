@@ -16,8 +16,6 @@
         rel="stylesheet">
     <!-- icon -->
     <link rel="icon" href="images/img.png" type="image/x-icon">
-    <!--  css style sheet "nour "-->
-    <link rel="stylesheet" href="css/header.css">
     <!-- master style sheet  -->
     <link rel="stylesheet" href="css/master.css">
     <!-- prayer_page_1 style sheet  -->
@@ -27,129 +25,7 @@
 
 <body dir="rtl">
   <!-- start Menu  -->
-  <header class="header">
-      <ul class="ul">
-        <li>
-            <a href="index.html">
-            مرحبا بكم
-          </a>
-        </li>
-        <li class="show_child1">
-          <a href="javascript:" class="click">
-            الوضوء<i class="fas fa-hand-point-left"></i>
-          </a>
-          <ul class="ul-1">
-              <li>
-                  <a href="sec1.html">
-                      تعريفه و أحكامه
-                  </a>
-              </li>
-              <li>
-                  <a href="sec2.html">
-                      الدليل علي وجوبه(من/متي)
-                  </a>
-              </li>
-              <li>
-                  <a href="sec3.htm">
-                      شروطه
-                  </a>
-              </li>
-              <li>
-                  <a href="sec4.htm">
-                      فروضه
-                  </a>
-              </li>
-              <li>
-                  <a href="sec5.htm">
-                      سننه
-                  </a>
-              </li>
-              <li>
-                  <a href="javascript:">
-                      نواقضه
-                  </a>
-              </li>
-              <li>
-                  <a href="sec7.htm">
-                      ما يجب له الوضوء
-                  </a>
-              </li>
-              <li>
-                  <a href="sec8.htm">
-                      ما يستحب له الوضوء
-                  </a>
-              </li>
-          </ul>
-      </li>
-      <li class="show_child2">
-          <a href="javascript:" class="click">
-              الصلاه<i class="fas fa-hand-point-left"></i>
-          </a>
-          <ul class="ul-2">
-              <li>
-                  <a href="prayer_page_1.html">
-                      عدد الصلوات المكتوبه
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_2.html">
-                      علي من تجب
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_3.html">
-                      شروطها
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_4.html">
-                      اركانها
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_5.html">
-                      واجباتها
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_6.html">
-                      سننها
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_7.html">
-                      مبطلاتها
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_8.html">
-                      ما يكره
-                  </a>
-              </li>
-              <li>
-                  <a href="prayer_page_9.html">
-                      حكم تارك الصلاه
-                  </a>
-              </li>
-          </ul>
-        </li>
-        <li>
-          <a href="vid_library.html">
-            قسم الفيديوهات
-          </a>
-        </li>
-        <li>
-          <a href="contact_us.html">
-            تواصل معنا
-          </a>
-        </li>
-        <li>
-          <a href="about_us.html">
-          حول
-          </a>
-        </li>
-      </ul>
-  </header>
+  <?php require_once 'header.php'; ?>
   <!-- End menu -->
     <section>
         <h1>
