@@ -39,6 +39,10 @@
       <li>أخرجه مسلم برقم (82).</li>
       <li>انظر: الشرح الممتع. (2/ 24 - 28).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" id="unactive"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_8.php'"></i>
+    </div>
   </section>
 </body>
 

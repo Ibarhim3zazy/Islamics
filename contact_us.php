@@ -28,7 +28,7 @@
   <?php require_once 'header.php'; ?>
   <!-- End menu -->
   <section>
-    <form class="" action="index.html" method="post">
+    <form class="" action="index.php" method="post">
       <input type="text" placeholder="اسمك..." value="">
       <input type="text" placeholder="اميلك..." value="">
       <input type="text" placeholder="عنوان الرساله...">

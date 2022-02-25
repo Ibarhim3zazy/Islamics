@@ -74,6 +74,10 @@
                 أخرجه البخاري برقم (247).
             </li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_1.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec7.php'"></i>
+        </div>
     </section>
 </body>
 

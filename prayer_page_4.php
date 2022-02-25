@@ -61,8 +61,11 @@
       <li>رواه البخاري (809)، ومسلم برقم (490) - 230. واللفظ لمسلم.</li>
       <li>أخرجه النسائي (2/ 240)، وصححه الألباني (الإرواء برقم 319).</li>
       <li>رواه البخاري برقم (631).</li>
-
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_5.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_3.php'"></i>
+    </div>
   </section>
 </body>
 

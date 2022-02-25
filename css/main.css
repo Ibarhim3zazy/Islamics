@@ -30,7 +30,7 @@ video + img{
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5%;
-  animation-name: intro_vid;
+  animation-name: unMute;
   animation-duration: 2s;
   animation-delay: 19s;
   animation-fill-mode: forwards;
@@ -62,6 +62,14 @@ img + input{
   }
   to{
     transform: translate(-70%, -50%);
+  }
+}
+@keyframes unMute {
+  from{
+    transform: translate(-50%, -50%);
+  }
+  to{
+    transform: translate(-125%, -50%);
   }
 }
 @keyframes intro_button{

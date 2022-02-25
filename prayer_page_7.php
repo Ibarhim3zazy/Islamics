@@ -53,6 +53,10 @@
       <li>أخرجه البخاري برقم (1200)، ومسلم برقم (539).</li>
       <li>رواه مسلم برقم (510).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_8.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_6.php'"></i>
+    </div>
   </section>
 </body>
 

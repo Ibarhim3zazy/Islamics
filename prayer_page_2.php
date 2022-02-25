@@ -33,6 +33,10 @@
     <ol>
       <li>رواه أحمد (3/ 201)، وأبو داود برقم (494)، والترمذي برقم (407) وقال: "حديث حسن"، وصححه الحاكم في المستدرك (1/ 201)، وصححه الألباني (الإرواء برقم 247).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_3.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_1.php'"></i>
+    </div>
   </section>
 </body>
 

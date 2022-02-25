@@ -41,6 +41,10 @@
     <ol>
       <li>أخرجه مسلم برقم (391).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_7.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_5.php'"></i>
+    </div>
   </section>
 </body>
 

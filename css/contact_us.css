@@ -5,6 +5,11 @@ section{
   display: flex;
   align-items: center;
 }
+@media (max-width: 922px) {
+  section{
+    width: 100%;
+  }
+}
 section form{
   height: 70%;
   width: 60%;
@@ -32,7 +37,8 @@ section form textarea{
   max-height: 150px;
 }
 section form [type="submit"]{
-  width: 15%;
+  width: fit-content;
+  padding: 10px 35px;
   cursor: pointer;
   transition: .6s;
 }
@@ -48,4 +54,30 @@ section form [type="submit"]:hover{
   border-radius: 10%;
   position: relative;
   left: 100px;
+}
+@media (max-width: 1024px) {
+  section{
+    padding: 0px 40px;
+    justify-content: center;
+  }
+  .contact{
+    height: fit-content;
+    padding-bottom: 80px;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  section form{
+    height: 50%;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 707px) {
+
+  .contact{
+    position: absolute;
+    bottom: -8%;
+  }
 }

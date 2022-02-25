@@ -57,6 +57,10 @@
       <li>رواه البخاري برقم (227)، ومسلم برقم (291).</li>
       <li>رواه البخاري برقم (220).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_4.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_2.php'"></i>
+    </div>
   </section>
 </body>
 

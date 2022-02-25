@@ -65,6 +65,10 @@
       <li>أخرجه مسلم برقم (560).</li>
       <li> رواه مسلم برقم (429).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_9.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_7.php'"></i>
+    </div>
   </section>
 </body>
 

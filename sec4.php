@@ -66,6 +66,10 @@
                 رواه أحمد (3/ 424)، وأبو داود برقم (175)، وصححه الألباني. انظر إرواء الغليل (1/ 127).
             </li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec5.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec3.php'"></i>
+        </div>
     </section>
 </body>
 

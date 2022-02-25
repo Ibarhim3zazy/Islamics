@@ -64,6 +64,10 @@
                 رواه البخاري برقم (1)، ومسلم برقم (1907).
             </li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec4.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec2.php'"></i>
+        </div>
     </section>
 </body>
 

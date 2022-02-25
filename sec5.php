@@ -67,6 +67,10 @@
             <li>متفق عليه: رواه البخاري برقم (157، 158، 159) ومسلم برقم (226) وعنده ذكر الثلاث فقط.</li>
             <li>أخرجه مسلم برقم (234) وزاد الترمذي: (اللهم اجعلني من التوابين واجعلني من المتطهرين) برقم (55)، وصححه بهذه الزيادة الألباني (الإرواء برقم 96).</li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec6.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec4.php'"></i>
+        </div>
     </section>
 </body>
 

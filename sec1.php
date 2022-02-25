@@ -35,6 +35,10 @@
             <h4>أما حكم الوضوء هو :</h4>
             أنه واجب على المُحْدِث إذا أراد الصلاة وما في حكمها، كالطواف ومسِّ المصحف.
         </div>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec2.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" id="unactive"></i>
+        </div>
     </section>
 </body>
 

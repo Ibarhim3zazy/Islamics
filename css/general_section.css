@@ -3,6 +3,11 @@ section{
   height: fit-content;
   float: left;
 }
+@media (max-width: 768px) {
+  section{
+    width: 100%;
+  }
+}
 section h1{
   width: fit-content;
   height: fit-content;
@@ -12,6 +17,11 @@ section h1{
   border-radius: 30%;
   box-shadow: 5px 5px 15px 5px #000;
   margin: 40px auto;
+}
+@media (max-width: 768px){
+  section h1 {
+    font-size: 20px;
+  }
 }
 section p, section div{
   padding: 30px;
@@ -194,4 +204,21 @@ ol {
 }
 h1 {
   color: rgb(189, 146, 7);
+}
+.arrows{
+  background-color: transparent;
+  text-align: center;
+}
+.arrows i {
+  font-size: 30px;
+  padding: 15px;
+  transition: .3s;
+}
+.arrows i:hover{
+  color: #008826;
+  cursor: pointer;
+}
+#unactive{
+  opacity: .3;
+  color: inherit;
 }

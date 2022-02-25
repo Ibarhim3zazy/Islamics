@@ -54,6 +54,10 @@
       <li>رواه أحمد (1/ 437)، والنسائي (1/ 174)، وصححه الألباني (الإرواء برقم 336).</li>
       <li> رواه أبو داود برقم (856)، وحسنه الألباني (الإرواء برقم 337).</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_6.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'prayer_page_4.php'"></i>
+    </div>
   </section>
 </body>
 

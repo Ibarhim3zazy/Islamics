@@ -49,6 +49,10 @@
             </li>
             <li>رواه مسلم برقم (223).</li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec3.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec1.php'"></i>
+        </div>
     </section>
 </body>
 

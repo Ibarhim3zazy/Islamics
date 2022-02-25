@@ -76,6 +76,10 @@
             <li>رواية أم حبيبة أخرجها: ابن ماجه برقم (481)، وصححها الألباني في الإرواء (1/ 151)، أما حديث أبي أيوب فقال الألباني: "لم أقف على إسناده" الإرواء (1/ 151).</li>
             <li>رواه مسلم برقم (360).</li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec7.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec5.php'"></i>
+        </div>
     </section>
 </body>
 

@@ -18,16 +18,19 @@
   animation-fill-mode: forwards;
   order: 999;
 }
+@media (max-width: 922px){
+  .header {
+    display: none;
+  }
+}
 .header .ul {
   padding: 20px;
 }
-
 .header .ul>li {
   padding: 0px 10px;
   margin-bottom: 20px;
   position: relative;
 }
-
 .header .ul>li>a {
   width: 180px;
   height: 30px;

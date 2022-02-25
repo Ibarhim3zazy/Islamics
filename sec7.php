@@ -63,6 +63,10 @@
             </li>
             <li>أخرجه مالك (1/ 199)، والدارقطني (1/ 121)، والبيهقي (1/ 87)، والحاكم (1/ 395) وصححه، وصححه الألباني (الإرواء برقم 122).</li>
         </ol>
+        <div class="arrows">
+          <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'sec8.php'"></i>
+          <i class="fa-solid fa-circle-chevron-left" onclick="window.location = 'sec6.php'"></i>
+        </div>
     </section>
 </body>
 

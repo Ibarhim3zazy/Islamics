@@ -35,6 +35,10 @@
       <li>الراوي : أنس بن مالك | المحدث : مسلم | المصدر : صحيح مسلم
 الصفحة أو الرقم : 12 | خلاصة حكم المحدث : [صحيح]</li>
     </ol>
+    <div class="arrows">
+      <i class="fa-solid fa-circle-chevron-right" onclick="window.location = 'prayer_page_2.php'"></i>
+      <i class="fa-solid fa-circle-chevron-left" id="unactive"></i>
+    </div>
   </section>
 </body>
 
