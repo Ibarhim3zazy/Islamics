@@ -11,30 +11,26 @@
 a {
     text-decoration: none;
 }
-/* start variables  */
-/* :root {
-    
-} */
- /* end variables  */
+
 body {
     background-image: url(../images/e169a2b7dc3a1ca15ac02b4a68232392.png);
     font-family: 'Cairo', sans-serif;
 }
 @media (min-width: "768px") {
     .container {
-        width: "768px";
+        width: "767px";
     }
 }
 /* medium screen */
 @media (min-width: "992px") {
     .container {
-        width: "992px";
+        width: "991px";
     }
 }
 /* large screen */
 @media (min-width: "1200px") {
     .container {
-        width: "1200px";
+        width: "1170px";
     }
 }
 /* End Global Rules */
