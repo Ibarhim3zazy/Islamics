@@ -29,7 +29,7 @@
   <?php require_once 'header.php'; ?>
   <!-- End menu -->
   <section>
-    <h1 id="top">قسم الفيديوهات</h1>
+    <h1 id="top">لاطفالنا</h1>
     <div id="played_div1">
       <video src="media\vid1.mp4" controls stop id="played_vid1" onplay="playVid(this.id)">
         Your browser does not support the video tag.

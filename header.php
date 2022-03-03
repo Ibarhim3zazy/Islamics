@@ -114,7 +114,7 @@
           </li>
           <li>
             <a href="vid_library.php">
-              قسم الفيديوهات
+              لاطفالنا
             </a>
           </li>
           <li>

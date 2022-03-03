@@ -21,6 +21,9 @@
   <link rel="stylesheet" href="css/contact_us.css">
   <!-- for test -->
   <title>صلي معنا</title>
+  <script type="text/javascript" src="js/contact_us.js">
+
+  </script>
 </head>
 
 <body dir="rtl">
@@ -28,12 +31,12 @@
   <?php require_once 'header.php'; ?>
   <!-- End menu -->
   <section>
-    <form class="" action="index.php" method="post">
+    <form action="javascript:" method="post">
       <input type="text" placeholder="اسمك..." value="">
       <input type="text" placeholder="اميلك..." value="">
       <input type="text" placeholder="عنوان الرساله...">
       <textarea placeholder="الرساله..." rows="8" cols="80"></textarea>
-      <input type="submit" name="" value="ارسال">
+      <input type="submit" onclick="saved()" value="ارسال">
     </form>
     <div class="contact">
       <h3>الاتصال بنا</h3><br><br>
@@ -42,6 +45,7 @@
       للتواصل عن طريق الاميل يمكنك الضغط <a href="mailto:Ibrahim3zazy@gmail.com?subject=feedback">هنا</a>
     </div>
   </section>
+  <span id="saveds">تم الارسال بنجاح</span>
 </body>
 
 </html>
