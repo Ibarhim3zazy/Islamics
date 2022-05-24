@@ -30,62 +30,62 @@
   <!-- End menu -->
   <section>
     <h1 id="top">لاطفالنا</h1>
-    <div id="played_div1">
-      <video src="media\vid1.mp4" controls stop id="played_vid1" onplay="playVid(this.id)">
+    <div id="1played_div">
+      <video src="media\vid1.mp4" controls stop id="1played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>كيف اتوضأ؟</h3>
     </div>
-    <div id="played_div2">
-      <video src="media\vid2.mp4" controls id="played_vid2" onplay="playVid(this.id)">
+    <div id="2played_div">
+      <video src="media\vid2.mp4" controls id="2played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>شروط صحة الصلاه</h3>
     </div>
-    <div id="played_div3">
-      <video src="media\vid3.mp4" controls id="played_vid3" onplay="playVid(this.id)">
+    <div id="3played_div">
+      <video src="media\vid3.mp4" controls id="3played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>مبطلات الصلاه</h3>
     </div>
-    <div id="played_div4">
-      <video src="media\vid4.mp4" controls id="played_vid4" onplay="playVid(this.id)">
+    <div id="4played_div">
+      <video src="media\vid4.mp4" controls id="4played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>السنن والرواتب</h3>
     </div>
-    <div id="played_div5">
-      <video src="media\vid5.mp4" controls id="played_vid5" onplay="playVid(this.id)">
+    <div id="5played_div">
+      <video src="media\vid5.mp4" controls id="5played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>اداب صلاة الجماعه</h3>
     </div>
-    <div id="played_div6">
-      <video src="media\vid6.mp4" controls id="played_vid6" onplay="playVid(this.id)">
+    <div id="6played_div">
+      <video src="media\vid6.mp4" controls id="6played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>تحية المسجد</h3>
     </div>
-    <div id="played_div7">
-      <video src="media\vid7.mp4" controls id="played_vid7" onplay="playVid(this.id)">
+    <div id="7played_div">
+      <video src="media\vid7.mp4" controls id="7played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>الجمعة فضائل وآداب</h3>
     </div>
-    <div id="played_div8">
-      <video src="media\vid8.mp4" controls id="played_vid8" onplay="playVid(this.id)">
+    <div id="8played_div">
+      <video src="media\vid8.mp4" controls id="8played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>صلاة المريض</h3>
     </div>
-    <div id="played_div9">
-      <video src="media\vid9.mp4" controls id="played_vid9" onplay="playVid(this.id)">
+    <div id="9played_div">
+      <video src="media\vid9.mp4" controls id="9played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>الصلاة في السفينة والقطار والطائرة</h3>
     </div>
-    <div id="played_div0">
-      <video src="media\vid0.mp4" controls id="played_vid0" onplay="playVid(this.id)">
+    <div id="10played_div">
+      <video src="media\vid0.mp4" controls id="10played_vid" onplay="playVid(this.id)">
         Your browser does not support the video tag.
       </video>
       <h3>صلاة الاستخارة</h3>
